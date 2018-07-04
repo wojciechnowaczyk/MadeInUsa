@@ -4,6 +4,39 @@ body{
 
 .IntroSection{
   width: 100%;
-  height: 500px;
+  height: 100vh;
   background-color: yellow;
+  background: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.OpacityDiv{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainHeader{
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.WhiteSpan{
+  color: #E3DeD5;
+}
+
+.BlueSpan{
+  color: #32345C;
+}
+
+.RedSpan{
+  color: #8F2930;
 }
